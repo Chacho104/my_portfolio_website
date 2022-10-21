@@ -1,0 +1,17 @@
+.navbar {
+    background-color: #000;
+    width: 100%;
+    height: auto;
+
+    nav {
+        margin-left: 60px;
+        padding: 18px;
+
+        .linkItem {
+            color: #fff;
+            margin: 20px;
+            text-decoration: none;
+            font-size: 1.25rem;
+        }
+    }
+}
