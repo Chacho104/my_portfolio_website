@@ -1,9 +1,16 @@
-import './App.css';
+import './App.scss';
+import Banner from './Components/Banner';
+import Body from './Components/Body';
+import Footbar from './Components/Footbar';
+import Navbar from './Components/Navbar';
 
 function App() {
   return (
     <div>
-      <h1>Hello, Churchil Owino here!</h1>
+      <Banner />
+      <Navbar />
+      <Body />
+      <Footbar />
     </div>
   );
 }
