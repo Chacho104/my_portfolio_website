@@ -1,1 +1,8 @@
+@import 'animate.css';
 
+@font-face {
+    font-family: 'League Spartan';
+    src: url('../src/Assets/Fonts/league-spartan-v6-latin-regular.ttf') format('ttf'),
+        url('../src/Assets/Fonts/league-spartan-v6-latin-regular.woff') format('woff')
+        url('../src/Assets/Fonts/league-spartan-v6-latin-regular.woff2') format('woff2');
+}
