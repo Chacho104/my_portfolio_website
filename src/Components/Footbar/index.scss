@@ -1,6 +1,36 @@
 .footbar {
     width: 100%;
-    height: auto;
     min-height: 200px;
     background-color: #282c34;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    ul {
+        padding: 0;
+
+        li {
+            list-style: none;
+            display: inline-block;
+            margin-right: 30px;
+
+            a {
+                font-size: 1.5rem;
+                color: #61dafb;
+
+                &:hover {
+                    color: #8de2fa;
+                }
+            }
+        }
+    }
+
+    .copyright {
+        margin-top: 30px;
+
+        span {
+            color: #969595;
+        }
+    }
 }

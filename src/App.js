@@ -1,18 +1,23 @@
 import './App.scss';
-import Banner from './Components/Banner';
-import Body from './Components/Body';
-import Footbar from './Components/Footbar';
 import Navbar from './Components/Navbar';
+import Contact from './Components/Contact';
+import Footbar from './Components/Footbar';
+import Banner from './Components/Banner';
+import Aboutfull from './Components/Aboutfull';
+import Showroom from './Components/Showroom';
 
-function App() {
-  return (
-    <div>
-      <Banner />
-      <Navbar />
-      <Body />
-      <Footbar />
-    </div>
-  );
+const App = () => {
+
+    return (
+        <div className='app'>
+            <Banner />
+            <Navbar />
+            <Aboutfull />
+            <Showroom />
+            <Contact />
+            <Footbar />
+        </div>
+    )
 }
 
-export default App;
+export default App

@@ -2,16 +2,20 @@
     background-color: #000;
     width: 100%;
     height: auto;
+    border-bottom: 2px solid #8de2fa;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 
     nav {
         margin-left: 60px;
-        padding: 18px;
+        padding: 18px 0;
 
         .linkItem {
             color: #fff;
-            margin: 20px;
             text-decoration: none;
             font-size: 1.25rem;
+            margin-right: 40px;
         }
     }
 }

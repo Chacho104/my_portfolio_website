@@ -1,0 +1,31 @@
+.hello {
+
+    span {
+        color: #61dafb;
+    }
+
+    h2 {
+        color: #fff;
+        font-size: 4.5rem;
+        margin: 30px 0;
+    }
+
+    p {
+        color: #969595;
+        line-height: 1.4;
+        margin-bottom: 30px;
+    }
+
+    button {
+        background-color: transparent;
+        border: 1px solid #61dafb;
+        border-radius: 3px;
+        color: #61dafb;
+        padding: 15px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #0f1118;
+        }
+    }
+}
